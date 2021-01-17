@@ -1,4 +1,4 @@
-@media screen and(min-width: 16em) {
+@media screen and(max-width: 16em) {
 
 p {
     font-family: 'Noto Sans JP', sans-serif;
