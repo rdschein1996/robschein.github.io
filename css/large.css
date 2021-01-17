@@ -1,47 +1,48 @@
-@media only screen and (min-width: 70em){
+@media only screen and (min-width: 80em){
 p {
-    font-family: 'Noto Sans JP', sans-serif;
-    }
-    header {
-        background-color: #588157;
-        height:130px;
-        text-align:center;
-        font-size: 16pt;
-        
-    }
+font-family: 'Noto Sans JP', sans-serif;
+}
+header {
+    background-color: #588157;
+    height:130px;
+    text-align:center;
+    font-size: 16pt;
     
-    footer {
-        background-color: #588157;
-        height: 100px;
-        text-align:center;
-        font-size: 16pt;
-        
-    }
-    
-    header img {
-        width: 200px;
-        height: 300px;
-        float: right;
-        position: relative;
-    }
-    
-    nav {
-        padding-top: 75px;
-        padding-bottom: 75px;
-        font-size: 14pt;
-    }
+}
 
-    main{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .repetition{
-        grid-column: 1/2;
-    }
-    .whitespace{
-        grid-column: 2/3;
-    }
-    .fitts{
-        grid-column: 3/4;
+footer {
+    background-color: #588157;
+    height: 100px;
+    text-align:center;
+    font-size: 16pt;
     
-    }
+}
+
+header img {
+    width: 200px;
+    height: 300px;
+    float: right;
+    position: relative;
+}
+
+nav {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    font-size: 14pt;
+}
+
+main{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+.repetition{
+    grid-column: 1/2;
+}
+.whitespace{
+    grid-column: 2/3;
+}
+.fitts{
+    grid-column: 3/4;
+
+}
 }
