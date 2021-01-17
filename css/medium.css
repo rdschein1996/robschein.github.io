@@ -1,28 +1,50 @@
+@media screen and(min-width: 32.5em) {
+
+p {
+font-family: 'Noto Sans JP', sans-serif;
+}
 header {
     background-color: #588157;
     height:130px;
     text-align:center;
     font-size: 16pt;
     
-  }
-  
-  footer {
+}
+
+footer {
     background-color: #588157;
     height: 100px;
     text-align:center;
     font-size: 16pt;
     
-  }
-  
-  header img {
+}
+
+header img {
     width: 200px;
     height: 300px;
     float: right;
     position: relative;
-  }
-  
-  nav {
+}
+
+nav {
     padding-top: 75px;
     padding-bottom: 75px;
     font-size: 14pt;
-  }
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.repetition{
+    grid-column: 1/2;
+}
+.whitespace{
+    grid-column: 2/3;
+}
+.fitts{
+    grid-column: 3/4;
+
+}
+}

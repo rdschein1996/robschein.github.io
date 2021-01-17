@@ -1,0 +1,45 @@
+@media screen and(min-width: 16em) {
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+    }
+    header {
+        background-color: #588157;
+        height:130px;
+        text-align:center;
+        font-size: 16pt;
+        
+    }
+    
+    footer {
+        background-color: #588157;
+        height: 100px;
+        text-align:center;
+        font-size: 16pt;
+        
+    }
+    
+    header img {
+        width: 200px;
+        height: 300px;
+        float: right;
+        position: relative;
+    }
+    
+    nav {
+        padding-top: 75px;
+        padding-bottom: 75px;
+        font-size: 14pt;
+    }
+
+    .repetition{
+        grid-column: 1/1;
+    }
+    .whitespace{
+        grid-column: 1/1;
+    }
+    .fitts{
+        grid-column: 1/1;
+    
+    }
+}
