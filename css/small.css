@@ -1,94 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Xanh+Mono:ital@0;1&display=swap');
-body{
-background-color:#2C4251;
-font-family: "Open Sans", sans-serif;
-color:#2C4251;
-align-items: center;
-}
-p{
-    font-family: "Open Sans", sans-serif;
-    color:#2C4251;
-    padding-left: 20px;
-    padding-right: 20px;
-} 
-h1{
-font-family: 'Xanh Mono', monospace;
-color:#C74343;
-font-size: 230%;
-padding-left: 20px;
-padding-right: 20px;
-
-}
-h2{
-    font-family: 'Xanh Mono', monospace;
-    color:#C74343;
-    font-size: 190%;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    border-bottom: 5px solid #92C8A6;
+p {
+    font-family: 'Noto Sans JP', sans-serif;
     }
-h3{
-    font-family: 'Xanh Mono', monospace;
-    color:#C74343;
-    font-size: 150%;
-    padding-left: 20px;
+    header {
+        background-color: #588157;
+        height:130px;
+        text-align:center;
+        font-size: 16pt;
+        
     }
-main{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 30px;
-    background-color: #2C4251;
-    margin: 30px;
     
-}
-header{
+    footer {
+        background-color: #588157;
+        height: 100px;
+        text-align:center;
+        font-size: 16pt;
+        
+    }
     
-    background-color: white;
-    border: 5px solid #92C8A6;
-    border-radius: 20px;
-    margin: 30px;
-}
-#NameS{
-    color:#2C4251;
-    border-bottom:none;
-    margin-top: -20px;
-    margin-bottom: -5px;
-
-}
-
-footer{
-    margin:30px;
-    border: 5px solid #92C8A6;
-    border-radius: 20px;
-    background-color:white;
-}
-a:hover {
-    text-decoration: none;
-    color:#C74343
-}
-a{
-color:#2C4251
-}
-img{
-    height: 650px;
-    box-shadow: 10px 10px 10px #ccc;
-    margin-right:20px;
-    margin-bottom: 20px;
-    padding: 20px;
+    header img {
+        width: 200px;
+        height: 300px;
+        float: right;
+        position: relative;
+    }
     
-}
-.repetition, .whitespace, .fitts{
-    border: 5px solid #92C8A6;
-    border-radius: 20px;
-    background-color: white;
-}
-.repetition{
-    grid-column: 1/1;
-}
-.whitespace{
-    grid-column: 1/1;
-}
-.fitts{
-    grid-column: 1/1;
+    nav {
+        padding-top: 75px;
+        padding-bottom: 75px;
+        font-size: 14pt;
+    }
 
-}
+    .repetition{
+        grid-column: 1/1;
+    }
+    .whitespace{
+        grid-column: 1/1;
+    }
+    .fitts{
+        grid-column: 1/1;
+    
+    }
